@@ -91,13 +91,25 @@ export const gamesData: Game[] = [
         categories: ['冒险', '解谜'],
         tags: ['治愈', '独立游戏'],
         intro: '探索失落的古文明遗迹。',
-        description: '一款画风唯美的解谜游戏。',
-        updates: '首发版本',
+        description: `一款画风唯美的解谜游戏。`,
+        updates: `首发版本`,
         preview: [
             { type: 'image', url: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80' }
         ],
         downloads: [
-            { platform: 'Windows', links: ['#'] }
-        ]
+            {
+                platform: 'Windows',
+                links: [
+                    { name: '高速网盘', url: 'https://pan.baidu.com/...' },
+                    { name: '官方直链', url: 'https://example.com/game.zip' }
+                ]
+            },
+            {
+                platform: 'Android',
+                links: [
+                    { name: 'Google Play', url: '#' }
+                ]
+            }
+        ],
     }
 ];
