@@ -11,7 +11,7 @@
           </div>
           <div class="flex flex-col">
             <span class="text-lg font-black tracking-tight text-slate-800 dark:text-white group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">
-              NEXUS
+              Cike GAMES
             </span>
             <div class="flex items-center gap-1.5">
               <span class="relative flex h-2 w-2">
