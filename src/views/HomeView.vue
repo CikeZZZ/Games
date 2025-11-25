@@ -28,7 +28,7 @@
 
       <!-- 4. 副标题 -->
       <p class="text-slate-500 dark:text-slate-400 max-w-xl mx-auto text-sm md:text-base leading-relaxed font-medium">
-        探索您的本地游戏宇宙。沉浸式体验，
+        探索此游戏宇宙。沉浸式体验，
         <span class="text-cyan-500 dark:text-cyan-400">极致流畅</span> 的管理中心。
       </p>
 
