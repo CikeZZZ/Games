@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆角矩形 -->
+  <rect width="64" height="64" rx="16" fill="url(#paint0_linear)"/>
+  <!-- 游戏手柄图案 -->
+  <path d="M14 32C14 24.268 20.268 18 28 18H36C43.732 18 50 24.268 50 32V36C50 41.5228 45.5228 46 40 46H24C18.4772 46 14 41.5228 14 36V32Z" fill="white" fill-opacity="0.9"/>
+  <path d="M22 32H26" stroke="#6366f1" stroke-width="3" stroke-linecap="round"/>
+  <path d="M24 30V34" stroke="#6366f1" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="38" cy="30" r="2" fill="#6366f1"/>
+  <circle cx="42" cy="34" r="2" fill="#6366f1"/>
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366f1"/> <!-- 靛蓝色 -->
+      <stop offset="1" stop-color="#a855f7"/> <!-- 紫色 -->
+    </linearGradient>
+  </defs>
+</svg>
