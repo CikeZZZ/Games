@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+import typography from '@tailwindcss/typography'; // 1. 引入插件
+
 export default {
     darkMode: 'class',
-    // 关键点：这一行决定了 Tailwind 去哪里找 class
     content: [
         "./index.html",
         "./src/**/*.{vue,js,ts,jsx,tsx}",
     ],
     theme: {
+        // ...保持你原有的 theme 配置不变...
         extend: {
             colors: {
                 primary: '#6366f1',
@@ -14,5 +16,8 @@ export default {
             }
         },
     },
-    plugins: [],
+    plugins: [
+        typography, // 2. 在这里启用插件
+        require('@tailwindcss/typography'),
+    ],
 }

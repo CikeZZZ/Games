@@ -29,7 +29,7 @@
 
     <footer class="py-10 text-center text-slate-500 text-sm font-medium tracking-wide">
       <p class="glass-next inline-block px-6 py-2 rounded-full text-xs">
-        ⚡ POWERED BY LOCAL GAME LIBRARY
+        ⚡ POWERED BY Cike GAME LIBRARY
       </p>
     </footer>
   </div>

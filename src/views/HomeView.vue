@@ -50,14 +50,12 @@
             placeholder="搜索游戏名称 / ID / 标签..." 
             class="flex-1 bg-transparent border-none outline-none text-slate-800 dark:text-white placeholder-slate-400 h-12 text-lg font-medium"
           >
-          
-          <!-- 快捷键提示 -->
-          <div class="hidden md:flex pr-4">
-             <kbd class="hidden sm:inline-block px-2 py-1 text-xs font-mono text-slate-500 bg-slate-100 dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700">CTRL K</kbd>
-          </div>
 
           <!-- 搜索按钮 -->
-          <button class="bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-6 py-3 rounded-full font-bold text-sm hover:bg-cyan-600 dark:hover:bg-cyan-400 transition-colors shadow-lg">
+          <button 
+            v-ripple 
+            class="glass-btn px-6 py-3 rounded-full text-sm hover:border-cyan-500/50"
+          >
             SEARCH
           </button>
         </div>
